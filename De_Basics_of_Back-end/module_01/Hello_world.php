@@ -1,3 +1,8 @@
-<?php
-    echo "<h1>Hello world!</h1>";
+<!DOCTYPE html>
+<html>
+<body>
+<?php 
+    echo "<h1>hello world!</h1>"; 
 ?>
+</body>
+</html>
