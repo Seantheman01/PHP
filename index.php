@@ -1,2 +1,10 @@
-<?php echo "<h1>Hello world!</h1>";
+<html>
+<title>PHP test</title>
+<body>
+
+<?php
+echo "Hello world!";
 ?>
+
+</body>
+</html>
