@@ -1,3 +1,6 @@
 <?php
-echo date("h:i:s") . "<br>";
+date_default_timezone_set("Netherlands/Amsterdam");
+$NewDate = new DateTime();
+echo $NewDate;
+$
 ?>
