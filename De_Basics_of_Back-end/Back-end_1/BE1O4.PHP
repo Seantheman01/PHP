@@ -1,5 +1,7 @@
 <?php
-date_default_timezone_set("Netherlands/Amsterdam");
-$NewDate = new DateTime();
-echo $NewDate;
+// $tijd = date("h:i:s");
+$tijd = date("G")
+if ($tijd >= "0") {
+    echo ("/images/morning.png");
+}
 ?>
