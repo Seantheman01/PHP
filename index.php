@@ -12,8 +12,8 @@
         $nacht = "night.png";
     ?>
 }
-
 </style>
+
 <body style = "background-image: url(/fotos/<?php echo $ochtend; ?>);">
 <h1 style = "text-align: center; margin: 280px; ">Goede morgen!</h1>
 <h1 style = "text-align: center; margin: 280px; " id="tijd">Het is nu <?php echo $tijd; ?></h1>
