@@ -5,7 +5,7 @@
 #tijd {
     <?php
         date_default_timezone_set("Europe/Amsterdam");
-        $tijd = date("h:i:s");
+        $tijd = date("H:i:s");
         $ochtend = "morning.png";
         $middag = "afternoon.png";
         $avond = "evening.png";
