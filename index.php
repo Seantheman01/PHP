@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <head>
 </head>
-    <body>
-        <style>
-        style {
-            background-image: url('D:/School/Software_developer/PHP/fotos/morning.png');
-        }
-        </style>
+<?php
+    date_default_timezone_set("Europe/Amsterdam");
+    echo 
+    date("h:i:s");
+    $plaatje = "morning.png";
+    ?>
+    <body style = "background-image: url('/fotos/<?php echo $plaatje; ?>');">
+    <h1>Goedemorgen!</h1>
+    <div></div>
     </body>
 </html>
