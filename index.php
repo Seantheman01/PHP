@@ -36,7 +36,7 @@ $dierenLijst = ['kat', 'hond', 'olifant'];
 
 $result = langste_naam($dierenLijst);
 
-echo strlen($dierenLijst);
+echo ;
 ?>
 
 </body>
