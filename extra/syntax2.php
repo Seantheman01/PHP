@@ -9,7 +9,8 @@ function langste_naam($dieren) {
     $sum = 0;
 
     foreach($dieren as $dier) {
-        $sum += $dier;
+        if () {
+            
     }
 
     return $sum;
