@@ -20,7 +20,8 @@ $getallenLijst = [1, 2, 3, 4];
 
 $result = lijst_optellen($getallenLijst);
 
-echo $result;
+list($a, $b, $c, $d) = $getallenLijst;
+echo $b + $d;
 ?>
 </body>
 </html>
