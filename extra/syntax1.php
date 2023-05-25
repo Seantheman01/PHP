@@ -22,8 +22,8 @@ $getallenLijst = [1, 2, 3, 4];
 
 $result = lijst_optellen($getallenLijst);
 
-if($sum%2==0)  
-    echo "ja";
-echo "</br>";
+if($result%2==0) {
+    echo $result;
+}
 ?>
 </body>
