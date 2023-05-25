@@ -21,11 +21,32 @@ $getallenLijst = [1, 2, 3, 4];
 
 $result = lijst_optellen($getallenLijst);
 
-echo (2 % 4)
+list($a, $b, $c, $d) = $getallenLijst;
+echo $b + $d;
 ?>
 
 <!-- Opdracht 2 -->
+<?php
+function lijst_optellen($dieren) {
+    $sum = 0;
 
+    foreach ($dieren as $dier) {
+
+        $sum += $dier;
+
+    }
+
+    return $sum;
+
+}
+
+$dierenLijst = ['kat', 'hond', 'olifant'];
+
+$result = lijst_optellen($dierenLijst);
+
+list($a, $b, $c, $d) = $dierenLijst;
+echo $b + $d;
+?>
 
 </body>
 </html>
