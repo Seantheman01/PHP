@@ -14,7 +14,6 @@ function lijst_optellen($numbers) {
 
         }
     }
-
     return $sum;
 }
 
