@@ -5,20 +5,21 @@
 
 <!-- opdracht 2 -->
 <?php
-function langste_naam($dieren) {
-    $sum = 0;
+function langste_woord($dieren) {
+    $sum = '';
 
-    foreach($dieren as $dier) {
-        if () {
-            
-           
+    foreach ($dieren as $dier) {
+        if (strlen($dier) > strlen($sum)) {
+            $sum = $dier;
         }
     }
+
     return $sum;
 }
 
-$dierenLijst = ['kat', 'hond', 'olifant']
-$result = langste_naam($dierenLijst);
+$dierenLijst = ['kat', 'hond', 'olifant'];
+$result = langste_woord($dierenLijst);
 echo $result;
+
 ?>
 </body>

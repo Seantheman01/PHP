@@ -8,11 +8,10 @@ function bubble_sort() {
     
     for($x = 0; $x < $sum; $x++) {
         for ($y = 0; $y < $sum - $y - 1; $y++) {
-                if 
-            }
+            
         }
-    return $sum
-    
+    }
+    return $sum;
 }
 
 $getallenLijst = [3, 1, 4, 2];
