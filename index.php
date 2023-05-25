@@ -38,8 +38,33 @@ $dierenLijst = ['kat', 'hond', 'olifant'];
 
 $result = langste_naam($dierenLijst);
 
-if ();
+if ($dieren );
     echo ;
+?>
+
+<!-- Opdracht 3 -->
+<?php
+function goede_volgorde($numbers) {
+    $sum = 0;
+
+    foreach ($numbers as $number) {
+
+        $sum += $number;
+
+    }
+
+    return $sum;
+
+}
+
+$getallenLijst = [1, 2, 3, 4];
+
+$result = goede_volgorde($getallenLijst);
+
+list($a, $b, $c, $d) = $getallenLijst;
+echo $b + $d;
+echo "</br>"
+
 ?>
 
 </body>
