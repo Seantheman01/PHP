@@ -28,7 +28,9 @@ echo "</br>"
 
 <!-- Opdracht 2 -->
 <?php
-function lnagste_naam($dieren) {
+function langste_naam($dieren) {
+
+    return $dieren;
 
 }
 
@@ -36,7 +38,8 @@ $dierenLijst = ['kat', 'hond', 'olifant'];
 
 $result = langste_naam($dierenLijst);
 
-echo ;
+if ();
+    echo ;
 ?>
 
 </body>
