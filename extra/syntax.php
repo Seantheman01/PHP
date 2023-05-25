@@ -2,6 +2,7 @@
 <head>
 </head>
 <body>
+<!-- opdracht 1 -->
 <?php
 function lijst_optellen($numbers) {
     $sum = 0;
@@ -20,7 +21,11 @@ $getallenLijst = [1, 2, 3, 4];
 
 $result = lijst_optellen($getallenLijst);
 
-echo $result;
+echo (2 % 4)
 ?>
+
+<!-- Opdracht 2 -->
+
+
 </body>
 </html>
