@@ -11,7 +11,8 @@ function bubble_sort() {
                 if 
             }
         }
-    $sum++
+    return $sum
+    
 }
 
 $getallenLijst = [3, 1, 4, 2];
