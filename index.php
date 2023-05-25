@@ -25,3 +25,4 @@ if($sum%2==0)
     echo "ja";
 echo "</br>";
 ?>
+</body>
