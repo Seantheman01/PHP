@@ -23,29 +23,20 @@ $result = lijst_optellen($getallenLijst);
 
 list($a, $b, $c, $d) = $getallenLijst;
 echo $b + $d;
+echo "</br>"
 ?>
 
 <!-- Opdracht 2 -->
 <?php
-function lijst_optellen($dieren) {
-    $sum = 0;
-
-    foreach ($dieren as $dier) {
-
-        $sum += $dier;
-
-    }
-
-    return $sum;
+function lnagste_naam($dieren) {
 
 }
 
 $dierenLijst = ['kat', 'hond', 'olifant'];
 
-$result = lijst_optellen($dierenLijst);
+$result = lnagste_naam($dierenLijst);
 
-list($a, $b, $c, $d) = $dierenLijst;
-echo $b + $d;
+
 ?>
 
 </body>
