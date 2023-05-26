@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <head>
 </head>
-<body>
-<?php
-function bubble_sort($volgorde) {
-    $sum = 0
-    
-    for($x = 0; $x < $sum; $x++) {
-        for ($y = 0; $y < $sum - $y - 1; $y++) {
-            if ($volgorde[$y] > $volgorde[$y+1]) {
-            }
-        }
-    }
-    return $sum;
+<style>
+#tijd {
+    <?php
+        date_default_timezone_set("Europe/Amsterdam");
+        $tijd = date("H:i:s");
+        $ochtend = "morning.png";
+        $middag = "afternoon.png";
+        $avond = "evening.png";
+        $nacht = "night.png";
+    ?>
 }
+</style>
 
-$getallenLijst = [3, 1, 4, 2];
-$result = bubble_sort($getallenLijst);
-echo $result;
-?>
+<body style = "background-image: url(/fotos/<?php echo $ochtend; ?>);">
+<h1 style = "text-align: center; margin: 280px; ">Goede morgen!</h1>
+<h1 style = "text-align: center; margin: 280px; " id="tijd">Het is nu <?php echo $tijd; ?></h1>
 </body>
+</html>
