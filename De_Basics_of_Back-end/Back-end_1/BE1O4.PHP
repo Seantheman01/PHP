@@ -2,17 +2,12 @@
 <head>
 </head>
 <style>
-#tijd {
+body {
     background-size: cover;
     background-position: center;
     width: 400px;
     height: 400px;
 }
-
-<?php
-    date_default_timezone_set("Europe/Amsterdam");
-    $tijd = date("H:i:s");
-?>
 
 h1 {
     position: absolute;
@@ -28,6 +23,9 @@ h2 {
 </style>
 
 <?php 
+date_default_timezone_set("Europe/Amsterdam");
+$tijd = date("H:i:s");
+
 if ($tijd >= "06:00:00" && $tijd < "12:00:00") {
     $background = '<body style = "background-image: url(fotos/morning.png)">';
     echo '<h2>Goede morgen!</h2>';
