@@ -2,28 +2,31 @@
 <head>
 </head>
 <style>
-#tijd {
+body {
     background-size: cover;
     background-position: center;
     width: 400px;
-    height: 400px;
+    height: 550px;
+    overflow: hidden;
 }
 
-<?php
+#tijd {
+    <?php
     date_default_timezone_set("Europe/Amsterdam");
     $tijd = date("H:i:s");
 ?>
+}
 
 h1 {
     position: absolute;
-    top: 55%;
-    left: 18%;
+    top: 10%;
+    left: 23%;
 }
 
 h2 {
     position: absolute;
-    top: 85%;
-    left: 45%;
+    top: 40%;
+    left: 44%;
 }
 </style>
 
