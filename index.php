@@ -16,13 +16,13 @@
 
 h1 {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 18%;
 }
 
 h2 {
     position: absolute;
-    top: 80%;
+    top: 85%;
     left: 45%;
 }
 </style>
