@@ -10,11 +10,11 @@ $db_database = 'studentenadmin';
 $db = new PDO('mysql:host='.$db_host.'; port=3306; dbname='.$db_database, $db_user, $db_pass);
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-$select = $db->prepare("SELECT `column`, `column2` FROM `table`");
+$select = $db->prepare("SELECT `voornaam`, `achternaam` FROM `student`");
 $select->execute();
 while ($row = $select->fetch(PDO::FETCH_ASSOC)) {
-    $db_col = $row['column'];
-    $db_col2 = $row['column2'];
+    $db_col = $row['voornaam'];
+    $db_col2 = $row['achternaam'];
     echo "$db_col $db_col2<br>";
 }
 ?>
