@@ -1,22 +1,19 @@
 <?php
-function db_connect(): PDO
-{
-    $host = '127.0.0.1';
-    $db_name = 'student';
-    $db_user = 'username';
-    $db_password = 'password';
-    $db = "mysql:host=$host;dbname=$db_name;charset=utf8mb4";
-    $options = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
-    return new PDO($db, $db_user, $db_password, $options);
-}
+/* Database */
+$db_host = 'localhost';
+$db_user = 'root';
+$db_pass = 'mysql';
+$db_database = 'studentenadmin';
 
-$db = db_connect();//Assign to variable before use
+/* End */
+$db = new PDO('mysql:host=127.0.0.1;dbname=database;charset=utf8mb4', 'username', 'password');
+$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-    
+
 </head>
 <body>
     
