@@ -9,13 +9,3 @@ $db_database = 'studentenadmin';
 $db = new PDO('mysql:host='.$db_host.'; port=3306; dbname='.$db_database, $db_user, $db_pass);
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 ?>
-
-<!DOCTYPE html>
-<html>
-<head>
-
-</head>
-<body>
-    
-</body>
-</html>
