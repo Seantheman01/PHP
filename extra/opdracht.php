@@ -1,6 +1,6 @@
 <?php
 /* Database */
-$db_host = 'd_local_environment-main';
+$db_host = 'mariadb';
 $db_user = 'root';
 $db_pass = 'mysql';
 $db_database = 'studentenadmin';
