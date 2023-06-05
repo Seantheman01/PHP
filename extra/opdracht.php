@@ -2,7 +2,7 @@
 function db_connect(): PDO
 {
     $host = '127.0.0.1';
-    $db_name = 'database';
+    $db_name = 'student';
     $db_user = 'username';
     $db_password = 'password';
     $db = "mysql:host=$host;dbname=$db_name;charset=utf8mb4";
