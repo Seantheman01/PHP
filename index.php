@@ -8,4 +8,7 @@ echo $getal1 ." - ".  $getal2 ." = ". $getal1 - $getal2 ."<br>";
 echo $getal1 ." x ".  $getal2 ." = ". $getal1 * $getal2 ."<br>";
 echo $getal1 ." : ".  $getal2 ." = ". $getal1 / $getal2 ."<br>";
 
+for ($x = 0; $x <= 10; $x++) {
+    echo "6 x ".$x." = ". 6*$x."<br>";
+}
 ?>
