@@ -1,20 +1,38 @@
-<?php
-/* Database */
-$db_host = 'mariadb';
-$db_user = 'root';
-$db_pass = 'mysql';
-$db_database = 'studentenadmin';
-
-/* End */
-
-$db = new PDO('mysql:host='.$db_host.'; port=3306; dbname='.$db_database, $db_user, $db_pass);
-$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-$select = $db->prepare("SELECT `voornaam`, `achternaam` FROM `student`");
-$select->execute();
-while ($row = $select->fetch(PDO::FETCH_ASSOC)) {
-    $db_col = $row['voornaam'];
-    $db_col2 = $row['achternaam'];
-    echo "$db_col $db_col2<br>";
+<!DOCTYPE html>
+<head>
+</head>
+<style>
+h1 {
+    text-align: center;
+    padding-top: 20%;
 }
-?>
+
+h2 {
+    text-align: center;
+}
+</style>
+
+<?php 
+date_default_timezone_set("Europe/Amsterdam");
+$tijd = date("H:i:s");
+
+if ($tijd >= "06:00:00" && $tijd < "12:00:00") {
+    $background = '<body style = "background-image: url(fotos/morning.png)">';
+    echo '<h1>Goede morgen!</h1>';
+}
+elseif ($tijd >= "12:00:00" && $tijd < "18:00:00") {
+    $background = '<body style = "background-image: url(fotos/afternoon.png)">';
+    echo '<h1>Goede middag!</h1>';
+}
+elseif ($tijd >= "18:00:00" && $tijd < "00:00:00") {
+    $background = '<body style = "background-image: url(fotos/evening.png)">';
+    echo '<h1>Goede avond!</h1>';
+}
+elseif ($tijd >= "00:00:00" && $tijd < "06:00:00") {
+    $background = '<body style = "background-image: url(fotos/night.png)">';
+    echo '<h1>Goede nacht!</h1>';
+}
+echo $background; ?>
+<h2 style = "text-align: center; margin: 280px; " id="tijd">Het is nu <?php echo $tijd; ?></h21>
+</body>
+</html>
