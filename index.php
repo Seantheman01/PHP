@@ -1,5 +1,5 @@
 <?php echo "<h1>Hello world!</h1>";
 
-define("HELLO", "Hello world!");
+define("HELLO", "<h1>Hello world!</h1>");
 echo HELLO;
 ?>
