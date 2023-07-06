@@ -12,4 +12,10 @@ echo "<br>";
 for ($x = 0; $x <= 10; $x++) {
     echo "6 x ".$x." = ". 6*$x."<br>";
 }
+echo "<br>";
+
+$arr = array("3", "5", "8", "12");
+foreach ($arr as $y) {
+    echo $y."<br>";
+}
 ?>
