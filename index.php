@@ -1,16 +1,11 @@
-<?php 
-echo "<h1>Hello world!</h1>";
+<?php
 
-define("HELLO", "<h1>Hello world!</h1>");
-echo HELLO;
+$getal1 = mt_rand(1, 10);
+$getal2 = mt_rand(1, 10);
 
-$x = "Learning PHP";
-$y = HELLO;
-echo $x = $y;
-
-$a = "Hello";
-$b = "world!";
-echo "<h1>".$a." ".$b."</h1>";
-
+echo $getal1 ." + ".  $getal2 ." = ". $getal1 + $getal2 ."<br>";
+echo $getal1 ." - ".  $getal2 ." = ". $getal1 - $getal2 ."<br>";
+echo $getal1 ." x ".  $getal2 ." = ". $getal1 * $getal2 ."<br>";
+echo $getal1 ." : ".  $getal2 ." = ". $getal1 / $getal2 ."<br>";
 
 ?>
