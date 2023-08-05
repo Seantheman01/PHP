@@ -2,7 +2,7 @@
 <head>
 </head>
 <body>
-    
+
 <link rel="stylesheet" href="lay-out.css">
 <form>
 Naam: <input type="text" naam="name"><br>
