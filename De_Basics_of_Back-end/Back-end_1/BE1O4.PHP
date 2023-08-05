@@ -34,5 +34,4 @@ elseif ($tijd >= "00:00:00" && $tijd < "06:00:00") {
 }
 echo $background; ?>
 <h2 style = "text-align: center; margin: 280px; " id="tijd">Het is nu <?php echo $tijd; ?></h21>
-</body>
 </html>
