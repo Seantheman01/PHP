@@ -1,9 +1,12 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <head>
 </head>
 <body>
 
-<?php
+<form>
+Naam: <input type="text" naam="name"><br>
+Email: <input type="text" name="email"><br>
+<input type="submit">
+</form>
 
-?>
 </body>
