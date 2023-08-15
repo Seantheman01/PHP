@@ -2,6 +2,8 @@
 <head>
 </head>
 <body>
-    
+    <h1>De ingevulde gegevens zijn: </h1>
+    <p>Naam: <?php echo $_GET['naam']?> </p>
+    <p>Email: <?php echo $_GET['email']?> </p> 
 </body>
 </html>
