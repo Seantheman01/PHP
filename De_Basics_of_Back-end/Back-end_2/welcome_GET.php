@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <body>
     <h1>De ingevulde gegevens zijn: </h1>
-    <p>Naam: <?php echo $_GET['naam']?> </p>
-    <p>Emailadres: <?php echo $_GET['email']?> </p> 
+    Naam: <?php echo $_GET['naam']?>
+    Emailadres: <?php echo $_GET['email']?>
 </body>
 </html>
