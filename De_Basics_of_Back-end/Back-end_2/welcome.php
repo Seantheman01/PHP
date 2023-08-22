@@ -7,7 +7,8 @@
 </head>
 <body>
     <?php
-        
+        $name = test_input($_POST["name"]);
+        $email = test_input($_POST["email"]);
     ?>
 </body>
 </html>
