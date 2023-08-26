@@ -10,14 +10,14 @@
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (empty($_POST["name"])) {
-        $nameErr = "Vul uw naam in";
+            $nameErr = "Vul uw naam in";
         } else {
-        $name = test_input($_POST["name"]);
+            $name = test_input($_POST["name"]);
         }
         if (empty($_POST["email"])) {
             $emailErr = "Vul uw email in";
         } else {
-        $email = test_input($_POST["email"]);
+            $email = test_input($_POST["email"]);
         }
     }
     ?>
