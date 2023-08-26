@@ -24,9 +24,9 @@
     <p><span class="error">* Vul iets in</span></p>
     <form method="post"> 
     Name: <input type="text" name="name">
-    <span class="error">* </span><br>
+    <span class="error">*</span><br>
     E-mail: <input type="text" name="email">
-    <span class="error">* </span><br>
+    <span class="error">*</span><br>
     <div class="button">
         <button type="submit">Verzenden</button>
     </div>
